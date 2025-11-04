@@ -13,6 +13,11 @@ h2, h3 {
     color: #83ead7;
 }
 
+.kontak {
+    text-align: center;
+    color: #83ead7;
+}
+
 .jumbotron {
     font-size: 20px;
     padding: 60px;
@@ -126,4 +131,5 @@ footer {
     
 
 }
+
 
