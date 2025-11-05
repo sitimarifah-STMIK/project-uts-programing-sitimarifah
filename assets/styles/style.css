@@ -13,23 +13,32 @@ h2, h3 {
     color: #83ead7;
 }
 
-.kontak {
+.contact {
     text-align: center;
     color: #83ead7;
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: #f0b0ce;
-    text-align: center;
-    color: beige;
+  font-size: 20px;
+  padding: 60px;
+  background-image: url(/assets/image/3d.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #83ead7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 nav {
-    background-color: #83ead7;
-    padding: 10px; 
-    text-align: center; 
+  background-color: #83ead7;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
 }
 
 nav ul {
@@ -81,7 +90,7 @@ aside {
 
 .featured-image {
     width: 100%;
-    max-height: 300px;
+    max-height: 600px;
     object-fit: cover;
     object-position: center;
     border-radius: 5px; 
@@ -127,9 +136,7 @@ footer {
     main {
         flex-direction: column;
     }
-
-    
-
 }
+
 
 
